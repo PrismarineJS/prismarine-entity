@@ -1,0 +1,26 @@
+{
+  "name": "prismarine-entity",
+  "version": "0.1.0",
+  "description": "Represent a minecraft entity",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/PrismarineJS/prismarine-entity.git"
+  },
+  "dependencies":{
+    "vec3":"~0.1.3"
+  },
+  "keywords": [
+    "minecraft",
+    "entity",
+    "prismarine"
+  ],
+  "author": "Romain Beaumont <romain.rom1@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PrismarineJS/prismarine-entity/issues"
+  }
+}
