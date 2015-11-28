@@ -1,8 +1,11 @@
 var Vec3 = require('vec3').Vec3;
+var util = require('util');
+var EventEmitter = require('events').EventEmitter;
 
 module.exports = Entity;
 
 function Entity(id) {
+  EventEmitter.call(this);
   this.id = id;
   this.type = null;
   this.position = new Vec3(0, 0, 0);
@@ -18,6 +21,7 @@ function Entity(id) {
   this.isValid = true;
   this.metadata = [];
 }
+util.inherits(Entity, EventEmitter);
 
 Entity.prototype.setEquipment = function(index, item) {
   this.equipment[index] = item;
