@@ -105,6 +105,9 @@ The player
 
 ## History
 
+### 0.2.0
+* extend EventEmitter
+
 ### 0.1.0
 
 * Import from mineflayer
