@@ -1,5 +1,5 @@
-var Entity=require("./");
+const Entity = require('./')
 
-var entity=new Entity(0);
+const entity = new Entity(0)
 
-console.log(entity);
+console.log(entity)
