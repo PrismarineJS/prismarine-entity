@@ -22,6 +22,7 @@ function Entity (id) {
   this.metadata = []
   this.effects = [];
   this.vehicle = null;
+  this.passengers = [];
   this.holder = null;
 }
 util.inherits(Entity, EventEmitter)
