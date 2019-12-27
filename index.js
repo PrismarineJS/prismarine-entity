@@ -15,11 +15,14 @@ function Entity (id) {
   this.onGround = true
   this.height = 0
   this.effects = {}
-  // 0 = held item, 1-4 = armor slot
-  this.equipment = new Array(5)
+  // 0 = held item, 1 = off hand, 2-5 = armor slot
+  this.equipment = new Array(6)
   this.heldItem = this.equipment[0] // shortcut to equipment[0]
   this.isValid = true
   this.metadata = []
+  this.effects = [];
+  this.vehicle = null;
+  this.holder = null;
 }
 util.inherits(Entity, EventEmitter)
 
