@@ -106,6 +106,10 @@ The player
 
 ## History
 
+### 1.0.0
+
+* typescript definitions (thanks @IdanHo)
+
 ### 0.2.0
 * extend EventEmitter
 
