@@ -28,6 +28,6 @@
   "devDependencies": {
     "@types/node": "^14.0.1",
     "prismarine-item": "^1.4.0",
-    "standard": "^11.0.1"
+    "standard": "^14.3.4"
   }
 }
