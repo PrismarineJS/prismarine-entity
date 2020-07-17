@@ -1,6 +1,6 @@
 # prismarine-entity
 [![NPM version](https://img.shields.io/npm/v/prismarine-entity.svg)](http://npmjs.com/package/prismarine-entity)
-[![Build Status](https://circleci.com/gh/PrismarineJS/prismarine-entity/tree/master.svg?style=shield)](https://circleci.com/gh/PrismarineJS/prismarine-entity/tree/master)
+[![Build Status](https://github.com/PrismarineJS/prismarine-entity/workflows/CI/badge.svg)](https://github.com/PrismarineJS/prismarine-entity/actions?query=workflow%3A%22CI%22)
 
 Represent a minecraft entity
 
