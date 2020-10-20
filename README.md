@@ -76,6 +76,8 @@ get from collecting the orb.
 
 #### entity.height
 
+#### entity.width
+
 #### entity.onGround
 
 #### entity.equipment[5]

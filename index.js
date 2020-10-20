@@ -14,6 +14,7 @@ function Entity (id) {
   this.pitch = 0
   this.onGround = true
   this.height = 0
+  this.width = 0
   this.effects = {}
   // 0 = held item, 1-4 = armor slot
   this.equipment = new Array(5)
