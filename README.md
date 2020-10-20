@@ -108,6 +108,10 @@ The player
 
 ## History
 
+### 1.1.0
+
+* Added entity width property
+
 ### 1.0.0
 
 * typescript definitions (thanks @IdanHo)
