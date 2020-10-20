@@ -23,6 +23,7 @@ declare module 'prismarine-entity' {
         yaw: number;
         pitch: number;
         height: number;
+        width: number;
         onGround: boolean;
         equipment: Array<Item>;
         heldItem: Item;
