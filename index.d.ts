@@ -38,7 +38,7 @@ declare module 'prismarine-entity' {
         health?: number;
         food?: number;
         player?: object;
-        effects: Effect;
+        effects: Effect[];
         setEquipment(index: number, item: Item): void;
     }
 
