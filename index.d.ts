@@ -7,6 +7,12 @@ import { Vec3 } from 'vec3';
 import { Item } from 'prismarine-item';
 
 declare module 'prismarine-entity' {
+    export interface Effect {
+        id: number;
+        amplifier: number;
+        duration: number;
+    }
+
     export class Entity extends EventEmitter {
         constructor(id: number);
         type: EntityType;
@@ -32,6 +38,7 @@ declare module 'prismarine-entity' {
         health?: number;
         food?: number;
         player?: object;
+        effects: Effect[];
         setEquipment(index: number, item: Item): void;
     }
 
