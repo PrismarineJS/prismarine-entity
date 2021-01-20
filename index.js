@@ -21,7 +21,7 @@ function Entity (id) {
   this.heldItem = this.equipment[0] // shortcut to equipment[0]
   this.isValid = true
   this.metadata = []
-  //bitmasks from https://wiki.vg/Entity_metadata#Entity_Metadata_Format
+  // bitmasks from https://wiki.vg/Entity_metadata#Entity_Metadata_Format
   this.onFire = Boolean(this.metadata[0] & 0x01)
   this.isCrouching = Boolean(this.metadata[0] & 0x02)
   this.isSprinting = Boolean(this.metadata[0] & 0x08)
