@@ -15,6 +15,7 @@ declare module 'prismarine-entity' {
 
     export class Entity extends EventEmitter {
         constructor(id: number);
+        id: number;
         type: EntityType;
         username?: string;
         mobType?: string;
