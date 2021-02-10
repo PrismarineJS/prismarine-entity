@@ -33,9 +33,6 @@ function Entity (id) {
   this.isCrouched = () => Boolean(this.metadata[0] & 0x02)
   this.isSprinting = () => Boolean(this.metadata[0] & 0x08)
   this.isInvisible = () => Boolean(this.metadata[0] & 0x20)
-  // only apply to Thrown Trident
-  this.loyaltyLevel = () => this.metadata[10]
-  this.hasEnchantGlint = () => this.metadata[11]
 
   if (mcData.isOlderThan('1.9')) {
     this.isMovingSlowly = () => Boolean(this.metadata[0] & 0x10) // moving slowly, ie: Eating/Drinking/Blocking
