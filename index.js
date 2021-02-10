@@ -2,7 +2,14 @@ const Vec3 = require('vec3').Vec3
 const util = require('util')
 const EventEmitter = require('events').EventEmitter
 
-module.exports = Entity
+module.exports = loader
+
+let mcData
+
+function loader (mcVersion) {
+  mcData = require('minecraft-data')(mcVersion)
+  return Entity
+}
 
 function Entity (id) {
   EventEmitter.call(this)
@@ -21,6 +28,22 @@ function Entity (id) {
   this.heldItem = this.equipment[0] // shortcut to equipment[0]
   this.isValid = true
   this.metadata = []
+  // all mc versions supported by mineflayer have:
+  this.onFire = () => Boolean(this.metadata[0] & 0x01)
+  this.isCrouched = () => Boolean(this.metadata[0] & 0x02)
+  this.isSprinting = () => Boolean(this.metadata[0] & 0x08)
+  this.isInvisible = () => Boolean(this.metadata[0] & 0x20)
+  // only apply to Thrown Trident
+  this.loyaltyLevel = () => this.metadata[10]
+  this.hasEnchantGlint = () => this.metadata[11]
+
+  if (mcData.isOlderThan('1.9')) {
+    this.isMovingSlowly = () => Boolean(this.metadata[0] & 0x10) // moving slowly, ie: Eating/Drinking/Blocking
+  } else if (mcData.isNewerOrEqualTo('1.9')) {
+    this.isSwimming = () => Boolean(this.metadata[0] & 0x10)
+    this.isGlowing = () => Boolean(this.metadata[0] & 0x40) // has glowing effect
+    this.isFlyingElytra = () => Boolean(this.metadata[0] & 0x80)
+  }
 }
 util.inherits(Entity, EventEmitter)
 
