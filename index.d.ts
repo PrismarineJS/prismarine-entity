@@ -40,6 +40,14 @@ declare module 'prismarine-entity' {
         food?: number;
         player?: object;
         effects: Effect[];
+        onFire(): boolean;
+        isCrouched(): boolean;
+        isSprinting(): boolean;
+        isInvisible(): boolean;
+        isMovingSlowly?(): boolean;
+        isSwimming?(): boolean;
+        isGlowing?(): boolean;
+        isFlyingElytra?(): boolean;
         setEquipment(index: number, item: Item): void;
     }
 
