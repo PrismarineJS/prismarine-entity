@@ -29,7 +29,7 @@ function Entity (id) {
   this.isValid = true
   this.metadata = []
   // all mc versions supported by mineflayer have:
-  this.onFire = () => Boolean(this.metadata[0] & 0x01)
+  this.isOnFire = () => Boolean(this.metadata[0] & 0x01)
   this.isCrouched = () => Boolean(this.metadata[0] & 0x02)
   this.isSprinting = () => Boolean(this.metadata[0] & 0x08)
   this.isInvisible = () => Boolean(this.metadata[0] & 0x20)
