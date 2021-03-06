@@ -38,6 +38,7 @@ declare module 'prismarine-entity' {
         isValid: boolean;
         health?: number;
         food?: number;
+        foodSaturation?: number;
         player?: object;
         effects: Effect[];
         setEquipment(index: number, item: Item): void;
