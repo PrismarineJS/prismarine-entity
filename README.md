@@ -98,15 +98,24 @@ Equivalent to `entity.equipment[0]`.
 See http://wiki.vg/Entities#Entity_Metadata_Format for more details.
 
 #### entity.health
+
 The health of the player, default: 20
 
 #### entity.food
+
 The food of the player, default: 20
 
 #### entity.player
+
 The player
 
 ## History
+
+### 1.2.0
+
+* Add food saturation to typings
+* Add id to typings
+* Add effects to typings
 
 ### 1.1.0
 
@@ -117,6 +126,7 @@ The player
 * typescript definitions (thanks @IdanHo)
 
 ### 0.2.0
+
 * extend EventEmitter
 
 ### 0.1.0
