@@ -2,16 +2,16 @@
 [![NPM version](https://img.shields.io/npm/v/prismarine-entity.svg)](http://npmjs.com/package/prismarine-entity)
 [![Build Status](https://github.com/PrismarineJS/prismarine-entity/workflows/CI/badge.svg)](https://github.com/PrismarineJS/prismarine-entity/actions?query=workflow%3A%22CI%22)
 
-Represent a minecraft entity
+Represent a minecraft entity with an api.
 
 ## Usage
 
 ```js
-var Entity=require("prismarine-entity");
+let prismarineEntity = require("prismarine-entity")
 
-var entity=new Entity(0);
+let entity = new prismarineEntity(0)
 
-console.log(entity);
+console.log(entity)
 ```
 
 ## API
