@@ -24,7 +24,8 @@
     "url": "https://github.com/PrismarineJS/prismarine-entity/issues"
   },
   "dependencies": {
-    "vec3": "^0.1.4"
+    "vec3": "^0.1.4",
+    "minecraft-data": "^2.79.0"
   },
   "devDependencies": {
     "@types/node": "^15.0.1",
