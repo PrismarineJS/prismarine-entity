@@ -1,7 +1,7 @@
 const Vec3 = require('vec3').Vec3
 
 module.exports = class Entity extends EventEmitter {
-  constructor() {
+  constructor(id) {
     this.id = id
     this.type = null
     this.position = new Vec3(0, 0, 0)
