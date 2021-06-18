@@ -16,11 +16,13 @@ console.log(entity)
 
 ## API
 
-### Entity
+### Entity(entityId, readMetadata = defaults false)
 
 Entities represent players, mobs, and objects.
 
 #### entity.id
+
+Unique entity id.
 
 #### entity.type
 
@@ -68,17 +70,27 @@ get from collecting the orb.
 
 #### entity.position
 
+Vec3 presentation of entity's location.
+
 #### entity.velocity
+
+Vec3 presentation of entity's velocity.
 
 #### entity.yaw
 
+Entity's yaw.
+
 #### entity.pitch
+
+Entity's pitch.
 
 #### entity.height
 
 #### entity.width
 
 #### entity.onGround
+
+True when entity is on ground.
 
 #### entity.equipment[5]
 
@@ -88,7 +100,6 @@ get from collecting the orb.
  * `3` - torso
  * `4` - head
  
-
 #### entity.heldItem
 
 Equivalent to `entity.equipment[0]`.
@@ -99,15 +110,15 @@ See http://wiki.vg/Entities#Entity_Metadata_Format for more details.
 
 #### entity.health
 
-The health of the player, default: 20
+The health of the player, default: 20.
 
 #### entity.food
 
-The food of the player, default: 20
+The food of the player, default: 20.
 
 #### entity.player
 
-The player
+If entity is not player, here will undefined.
 
 ## History
 
