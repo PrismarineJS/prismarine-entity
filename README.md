@@ -120,26 +120,13 @@ The food of the player, default: 20.
 
 If entity is not player, here will undefined.
 
-## History
+### Below this events, needs to metadata reading enabled.
 
-### 1.2.0
-
-* Add food saturation to typings
-* Add id to typings
-* Add effects to typings
-
-### 1.1.0
-
-* Added entity width property
-
-### 1.0.0
-
-* typescript definitions (thanks @IdanHo)
-
-### 0.2.0
-
-* extend EventEmitter
-
-### 0.1.0
-
-* Import from mineflayer
+#### entity.isOnFire => Defaults false, when entity is on fire it will true.
+#### entity.isCrouched => Defaults false, when entity is crouched it will true.
+#### entity.isSprinting => Defaults false, when entity is sprinted it will true.
+#### entity.isInvisible => Defaults false, when entity is invisible it will true.
+#### entity.isMovingSlowly => Defaults false, when entity is Eating/Drinking/Blocking it will true.
+#### entity.isSwimming => Only for 1.9+, Defaults false, when entity is swimming it will true.
+#### entity.isGlowing => Only for 1.9+, Defaults false, when entity is glowing it will true.
+#### entity.isFlyingElytra => Only for 1.9+, Defaults false, when entity is flying it will true.
