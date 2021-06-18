@@ -9,9 +9,9 @@ Represent a minecraft entity with an api.
 ```js
 let prismarineEntity = require("prismarine-entity")
 
-let entity = new prismarineEntity(0)
+let Entity = new prismarineEntity(0)
 
-console.log(entity)
+console.log(Entity)
 ```
 
 ## API
