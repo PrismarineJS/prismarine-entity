@@ -7,11 +7,10 @@ Represent a minecraft entity
 ## Usage
 
 ```js
-var Entity=require("prismarine-entity");
+const Entity = require("prismarine-entity")
 
-var entity=new Entity(0);
-
-console.log(entity);
+const entity = new Entity(0)
+console.log(entity)
 ```
 
 ## API
