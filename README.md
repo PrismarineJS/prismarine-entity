@@ -96,6 +96,16 @@ Equivalent to `entity.equipment[0]`.
 
 See http://wiki.vg/Entities#Entity_Metadata_Format for more details.
 
+#### entity.noClip
+
+#### entity.vehicle
+
+Entity that this entity is riding on
+
+#### entity.passenger
+
+Entity that is riding on this entity
+
 #### entity.health
 
 The health of the player, default: 20

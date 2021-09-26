@@ -21,6 +21,9 @@ function Entity (id) {
   this.heldItem = this.equipment[0] // shortcut to equipment[0]
   this.isValid = true
   this.metadata = []
+  this.noClip = false
+  this.vehicle = null
+  this.passenger = null
 }
 util.inherits(Entity, EventEmitter)
 
