@@ -7,7 +7,7 @@ Represent a minecraft entity
 ## Usage
 
 ```js
-const Entity = require("prismarine-entity")
+const Entity = require("prismarine-entity")('1.8.9')
 
 const entity = new Entity(0)
 console.log(entity)
@@ -118,12 +118,17 @@ The food of the player, default: 20
 
 The player
 
+#### entity.getCustomName()
+
+returns a `prismarine-chat` ChatMessage object for the name of the entity or null if there isn't one
+
 ## History
 
 ### 2.0.0
 
 * require mcversion in constructor
 * add Entity#getCustomName()
+* Add attributes for entity entity collision calculation (thanks @O-of)
 
 ### 1.2.0
 
