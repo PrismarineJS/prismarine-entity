@@ -32,7 +32,7 @@ module.exports = (version) => {
       if (name === undefined) {
         return null
       }
-      return new ChatMessage(name)
+      return ChatMessage.fromNotch(name)
     }
   }
 
