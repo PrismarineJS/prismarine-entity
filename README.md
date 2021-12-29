@@ -120,6 +120,11 @@ The player
 
 ## History
 
+### 2.0.0
+
+* require mcversion in constructor
+* add Entity#getCustomName()
+
 ### 1.2.0
 
 * Add food saturation to typings
