@@ -13,7 +13,8 @@
     "url": "https://github.com/PrismarineJS/prismarine-entity.git"
   },
   "dependencies": {
-    "vec3": "^0.1.4"
+    "vec3": "^0.1.4",
+    "prismarine-chat": "^1.4.1"
   },
   "keywords": [
     "minecraft",

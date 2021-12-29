@@ -5,6 +5,7 @@
 import {EventEmitter} from 'events';
 import { Vec3 } from 'vec3';
 import { Item } from 'prismarine-item';
+import { ChatMessage } from 'prismarine-chat';
 
 declare module 'prismarine-entity' {
     export interface Effect {
@@ -42,6 +43,7 @@ declare module 'prismarine-entity' {
         player?: object;
         effects: Effect[];
         setEquipment(index: number, item: Item): void;
+        getCustomName(): ChatMessage | null;
     }
 
     export type EntityType = 'player' | 'mob' | 'object' | 'global' | 'orb' | 'other';
