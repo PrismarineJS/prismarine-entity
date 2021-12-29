@@ -1,6 +1,6 @@
 {
   "name": "prismarine-entity",
-  "version": "1.2.0",
+  "version": "2.0.0",
   "description": "Represent a minecraft entity",
   "main": "index.js",
   "types": "index.d.ts",
@@ -28,6 +28,7 @@
   "devDependencies": {
     "@types/node": "^17.0.4",
     "prismarine-item": "^1.4.0",
-    "standard": "^16.0.1"
+    "standard": "^16.0.1",
+    "prismarine-chat": "^1.4.1"
   }
 }
