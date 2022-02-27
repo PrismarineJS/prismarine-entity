@@ -6,16 +6,10 @@ import {EventEmitter} from 'events';
 import { Vec3 } from 'vec3';
 import { Item } from 'prismarine-item';
 import { ChatMessage } from 'prismarine-chat';
-import { Entity } from './types/entity'
 
-declare module 'prismarine-entity' {
-    export interface Effect {
-        id: number;
-        amplifier: number;
-        duration: number;
-    }
 
-    export interface IEntity {
+export class Entity extends EventEmitter {
+        constructor(id: number);
         id: number;
         type: EntityType;
         username?: string;
@@ -45,9 +39,4 @@ declare module 'prismarine-entity' {
         setEquipment(index: number, item: Item): void;
         getCustomName(): ChatMessage | null;
     }
-    
-    
-    export default function loader(mcVersion: string): typeof Entity;
 
-    export type EntityType = 'player' | 'mob' | 'object' | 'global' | 'orb' | 'other';
-}
