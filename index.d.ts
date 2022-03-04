@@ -18,6 +18,7 @@ declare module 'prismarine-entity' {
         constructor(id: number);
         id: number;
         type: EntityType;
+        uuid?: string;
         username?: string;
         mobType?: string;
         displayName?: string;
