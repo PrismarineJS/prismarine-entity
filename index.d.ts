@@ -44,6 +44,7 @@ declare module 'prismarine-entity' {
         effects: Effect[];
         setEquipment(index: number, item: Item): void;
         getCustomName(): ChatMessage | null;
+        getDroppedItem(): Item | null;
     }
 
     export type EntityType = 'player' | 'mob' | 'object' | 'global' | 'orb' | 'other';
