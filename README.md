@@ -128,6 +128,10 @@ returns a `prismarine-item` Item object for the dropped item, if this is a dropp
 
 ## History
 
+### 2.1.0
+
+* Adds Entity#getDroppedItem
+
 ### 2.0.0
 
 * require mcversion in constructor
