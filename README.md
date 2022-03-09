@@ -122,6 +122,10 @@ The player
 
 returns a `prismarine-chat` ChatMessage object for the name of the entity or null if there isn't one
 
+#### entity.getDroppedItem()
+
+returns a `prismarine-item` Item object for the dropped item, if this is a dropped item, or it will return null
+
 ## History
 
 ### 2.0.0
