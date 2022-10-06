@@ -65,6 +65,8 @@ If the entity type is `object`, this field will be set.
 If the entity type is `orb`, this field will be how much experience you
 get from collecting the orb.
 
+#### entity.lastPosition
+
 #### entity.position
 
 #### entity.velocity

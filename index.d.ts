@@ -27,6 +27,7 @@ declare module 'prismarine-entity' {
         name?: string;
         objectType?: string;
         count?: number;
+        lastPosition: Vec3;
         position: Vec3;
         velocity: Vec3;
         yaw: number;

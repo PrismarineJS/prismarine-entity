@@ -9,6 +9,7 @@ module.exports = (version) => {
     constructor (id) {
       super()
       this.id = id
+      this.lastPosition = new Vec3(0, 0, 0)
       this.position = new Vec3(0, 0, 0)
       this.velocity = new Vec3(0, 0, 0)
       this.yaw = 0
