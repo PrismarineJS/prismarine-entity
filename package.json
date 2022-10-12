@@ -13,7 +13,6 @@
     "url": "https://github.com/PrismarineJS/prismarine-entity.git"
   },
   "dependencies": {
-    "minecraft-data": "^3.0.0",
     "prismarine-chat": "^1.4.1",
     "prismarine-item": "^1.11.2",
     "prismarine-registry": "^1.4.0",
