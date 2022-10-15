@@ -23,21 +23,27 @@ module.exports = (registryOrVersion) => {
       this.isValid = true
       this.metadata = []
     }
-    get mobType() {
+
+    get mobType () {
       printMobTypeWarning()
       return this.displayName
     }
-    set mobType(name) {
+
+    set mobType (name) {
       printMobTypeWarning()
       this.displayName = name
     }
-    get objectType() {
+
+    get objectType () {
       printObjectTypeWarning()
       return this.displayName
-    set objectType(name) {
+    }
+
+    set objectType (name) {
       printObjectTypeWarning()
       this.displayName = name
     }
+
     setEquipment (index, item) {
       this.equipment[index] = item
       this.heldItem = this.equipment[0]
@@ -61,9 +67,9 @@ module.exports = (registryOrVersion) => {
 
   return Entity
 }
-function printMobTypeWarning() {
-  console.log("Warning: entity.mobType is deprecated. Use entity.displayName instead")
+function printMobTypeWarning () {
+  console.log('Warning: entity.mobType is deprecated. Use entity.displayName instead')
 }
-function printObjectTypeWarning() {
-  console.log("Warning: entity.objectType is deprecated. Use entity.displayName instead")
+function printObjectTypeWarning () {
+  console.log('Warning: entity.objectType is deprecated. Use entity.displayName instead')
 }
