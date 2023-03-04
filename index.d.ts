@@ -48,5 +48,5 @@ declare module 'prismarine-entity' {
         getDroppedItem(): Item | null;
     }
 
-    export type EntityType = 'player' | 'mob' | 'object' | 'global' | 'orb' | 'other';
+    export type EntityType = 'player' | 'mob' | 'object' | 'global' | 'orb' | 'projectile'| 'hostile' | 'other';
 }
