@@ -81,12 +81,24 @@ get from collecting the orb.
 
 #### entity.equipment[5]
 
+Version dependent. 
+
+1.8 Layout:
+
  * `0` - held item
  * `1` - shoes
  * `2` - legging
  * `3` - torso
  * `4` - head
- 
+
+1.9 and later:
+
+ * `0` - held item
+ * `1` - off-hand
+ * `2` - shoes
+ * `3` - legging
+ * `4` - torso
+ * `5` - head 
 
 #### entity.heldItem
 
