@@ -81,12 +81,20 @@ get from collecting the orb.
 
 #### entity.equipment[5]
 
+Pre 1.9:
  * `0` - held item
- * `1` - shoes
- * `2` - legging
- * `3` - torso
- * `4` - head
- 
+ * `1` - boots slot
+ * `2` - leggings slot
+ * `3` - chest slot
+ * `4` - helmet slot
+
+ Post 1.9:
+ * `0` - held item
+ * `1` - offhand item
+ * `2` - boots slot
+ * `3` - leggings slot
+ * `4` - chest slot
+ * `5` - helmet slot
 
 #### entity.heldItem
 
