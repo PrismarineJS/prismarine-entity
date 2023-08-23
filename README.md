@@ -126,6 +126,10 @@ The health of the player, default: 20
 
 The food of the player, default: 20
 
+#### entity.elytraFlying
+
+Whether or not the entity is elytra flying.
+
 #### entity.player
 
 The player
