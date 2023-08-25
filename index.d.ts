@@ -41,6 +41,7 @@ declare module 'prismarine-entity' {
         health?: number;
         food?: number;
         foodSaturation?: number;
+        elytraFlying?: boolean
         player?: object;
         effects: Effect[];
         setEquipment(index: number, item: Item): void;
