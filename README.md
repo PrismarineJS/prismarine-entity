@@ -144,6 +144,16 @@ returns a `prismarine-item` Item object for the dropped item, if this is a dropp
 
 ## History
 
+### 2.3.0
+* [Add default elytra flying value (#69)](https://github.com/PrismarineJS/prismarine-entity/commit/f124abd47b42a908a676b91b0fcb55b1fd1a77b9) (thanks @lkwilson)
+* [Fix equipment documentation for other versions (#67)](https://github.com/PrismarineJS/prismarine-entity/commit/b2f756de52fa7ceb2675fe9c2f950fa7398bc425) (thanks @IceTank)
+* [Add command gh workflow allowing to use release command in comments (#66)](https://github.com/PrismarineJS/prismarine-entity/commit/4dffa63e3dd45b8f3a42575a2f6f3c2fa47d1d50) (thanks @rom1504)
+* [Update to node 18.0.0 (#65)](https://github.com/PrismarineJS/prismarine-entity/commit/7fe14b95f82089b27e20f12a14f709bc8bd5c206) (thanks @rom1504)
+* [Bump @types/node from 18.16.13 to 20.2.1 (#64)](https://github.com/PrismarineJS/prismarine-entity/commit/887737f531d89b25e045c4f0db4ec66497eba9f8) (thanks @dependabot[bot])
+* [Add missing type (#55)](https://github.com/PrismarineJS/prismarine-entity/commit/87a94dbaf698497f56968efbb396c3692431ae6f) (thanks @sefirosweb)
+* [deprecate objectType and mobType (#53)](https://github.com/PrismarineJS/prismarine-entity/commit/e3aadc7e51dccc645d81825aa0bd40b3be88cb05) (thanks @Epirito)
+* [Update package.json (#52)](https://github.com/PrismarineJS/prismarine-entity/commit/1156c9b9ae76b3e82ea57348c0f4e0cbdcb6216a) (thanks @Epirito)
+
 ### 2.2.0
 
 * mcData to registry refactoring (step towards #2450)
