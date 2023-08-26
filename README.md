@@ -144,6 +144,9 @@ returns a `prismarine-item` Item object for the dropped item, if this is a dropp
 
 ## History
 
+### 2.3.1
+* [Use console.trace instead of console.log for deprecation message (#71)](https://github.com/PrismarineJS/prismarine-entity/commit/7262fcf02d6656c663f876d513d84cc7266a3903) (thanks @extremeheat)
+
 ### 2.3.0
 * [Add default elytra flying value (#69)](https://github.com/PrismarineJS/prismarine-entity/commit/f124abd47b42a908a676b91b0fcb55b1fd1a77b9) (thanks @lkwilson)
 * [Fix equipment documentation for other versions (#67)](https://github.com/PrismarineJS/prismarine-entity/commit/b2f756de52fa7ceb2675fe9c2f950fa7398bc425) (thanks @IceTank)
