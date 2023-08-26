@@ -68,8 +68,8 @@ module.exports = (registryOrVersion) => {
   return Entity
 }
 function printMobTypeWarning () {
-  console.log('Warning: entity.mobType is deprecated. Use entity.displayName instead')
+  console.trace('Warning: entity.mobType is deprecated. Use entity.displayName instead')
 }
 function printObjectTypeWarning () {
-  console.log('Warning: entity.objectType is deprecated. Use entity.displayName instead')
+  console.trace('Warning: entity.objectType is deprecated. Use entity.displayName instead')
 }
