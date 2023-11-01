@@ -35,7 +35,7 @@ declare module 'prismarine-entity' {
         width: number;
         onGround: boolean;
         equipment: Array<Item>;
-        heldItem: Item;
+        get heldItem(): Item;
         metadata: Array<object>;
         isValid: boolean;
         health?: number;
