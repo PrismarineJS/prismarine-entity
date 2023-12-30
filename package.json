@@ -1,6 +1,6 @@
 {
   "name": "prismarine-entity",
-  "version": "2.3.1",
+  "version": "2.4.0",
   "description": "Represent a minecraft entity",
   "main": "index.js",
   "types": "index.d.ts",
