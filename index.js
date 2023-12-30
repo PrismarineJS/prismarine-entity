@@ -19,7 +19,6 @@ module.exports = (registryOrVersion) => {
       this.effects = {}
       // 0 = held item, 1-4 = armor slot
       this.equipment = new Array(5)
-      this.heldItem = this.equipment[0] // shortcut to equipment[0]
       this.isValid = true
       this.metadata = []
     }
@@ -44,9 +43,12 @@ module.exports = (registryOrVersion) => {
       this.displayName = name
     }
 
+    get heldItem () {
+      return this.equipment[0]
+    }
+
     setEquipment (index, item) {
       this.equipment[index] = item
-      this.heldItem = this.equipment[0]
     }
 
     getCustomName () {
