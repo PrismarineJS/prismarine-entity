@@ -144,6 +144,9 @@ returns a `prismarine-item` Item object for the dropped item, if this is a dropp
 
 ## History
 
+### 2.4.0
+* [use getter for  `.heldItem` (#73)](https://github.com/PrismarineJS/prismarine-entity/commit/4694438ab733ea3e2d5414d3330ae295ff85b660) (thanks @szdytom)
+
 ### 2.3.1
 * [Use console.trace instead of console.log for deprecation message (#71)](https://github.com/PrismarineJS/prismarine-entity/commit/7262fcf02d6656c663f876d513d84cc7266a3903) (thanks @extremeheat)
 
