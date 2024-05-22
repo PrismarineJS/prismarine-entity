@@ -44,6 +44,8 @@ declare module 'prismarine-entity' {
         elytraFlying?: boolean
         player?: object;
         effects: Effect[];
+        vehicle: Entity;
+        passengers: Entity[];
         setEquipment(index: number, item: Item): void;
         getCustomName(): ChatMessage | null;
         getDroppedItem(): Item | null;
