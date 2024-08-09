@@ -29,7 +29,7 @@
     "url": "https://github.com/PrismarineJS/prismarine-entity/issues"
   },
   "devDependencies": {
-    "@types/node": "^20.2.1",
+    "@types/node": "^22.2.0",
     "prismarine-entity": "file:.",
     "standard": "^17.0.0"
   }
