@@ -21,6 +21,8 @@ module.exports = (registryOrVersion) => {
       this.equipment = new Array(5)
       this.isValid = true
       this.metadata = []
+      this.passengers = []
+      this.vehicle = null
     }
 
     get mobType () {
