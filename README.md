@@ -144,6 +144,10 @@ returns a `prismarine-item` Item object for the dropped item, if this is a dropp
 
 ## History
 
+### 2.5.0
+* [add Entity.passengers and Entity.vehicle (#75)](https://github.com/PrismarineJS/prismarine-entity/commit/e45c544e7df6ae69239d1d23473c82805d5134b9) (thanks @qwqtoday)
+* [Bump @types/node from 20.14.15 to 22.2.0 (#80)](https://github.com/PrismarineJS/prismarine-entity/commit/47b7167630665b1d95b5a88c0e985355a640a012) (thanks @dependabot[bot])
+
 ### 2.4.0
 * [use getter for  `.heldItem` (#73)](https://github.com/PrismarineJS/prismarine-entity/commit/4694438ab733ea3e2d5414d3330ae295ff85b660) (thanks @szdytom)
 
