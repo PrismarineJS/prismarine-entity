@@ -106,7 +106,7 @@ Equivalent to `entity.equipment[0]`.
 
 #### entity.metadata
 
-See http://wiki.vg/Entities#Entity_Metadata_Format for more details.
+See https://minecraft.wiki/w/Java_Edition_protocol/Entity_metadata#Entity_Metadata_Format for more details.
 
 #### entity.noClip
 
