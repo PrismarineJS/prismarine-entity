@@ -144,6 +144,12 @@ returns a `prismarine-item` Item object for the dropped item, if this is a dropp
 
 ## History
 
+### 2.6.0
+* [Update CI to Node 24 (#136)](https://github.com/PrismarineJS/prismarine-entity/commit/09b796f821e990c6409dc710235e1bd678c1cd62) (thanks @rom1504)
+* [Fix publish condition for npm-publish v4 (#135)](https://github.com/PrismarineJS/prismarine-entity/commit/4ae0714edf4265e5ae39af6f3a0b634c311f25ba) (thanks @rom1504)
+* [Switch to trusted publishing via OIDC (#134)](https://github.com/PrismarineJS/prismarine-entity/commit/e9bfe269b486e3be90e5fb13d8dcd2ee20a73760) (thanks @rom1504)
+* [node 22 (#82)](https://github.com/PrismarineJS/prismarine-entity/commit/2869cd63a21e7cc08d4b0ba12d9c2914db95ee8a) (thanks @rom1504)
+
 ### 2.5.0
 * [add Entity.passengers and Entity.vehicle (#75)](https://github.com/PrismarineJS/prismarine-entity/commit/e45c544e7df6ae69239d1d23473c82805d5134b9) (thanks @qwqtoday)
 * [Bump @types/node from 20.14.15 to 22.2.0 (#80)](https://github.com/PrismarineJS/prismarine-entity/commit/47b7167630665b1d95b5a88c0e985355a640a012) (thanks @dependabot[bot])
